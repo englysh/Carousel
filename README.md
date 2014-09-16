@@ -1,5 +1,9 @@
 Carousel
 ========
+
+<img
+ <img src=https://raw.githubusercontent.com/englysh/Carousel/master/carouselHW.gif>
+
 Took about 16 hours to finish.
 
 App includes:
