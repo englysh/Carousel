@@ -1,6 +1,6 @@
 Carousel
 ========
-Took about 10 hours to finish.
+Took about 15 hours to finish.
 
 App includes:
 
