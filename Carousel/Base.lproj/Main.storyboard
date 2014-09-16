@@ -12,7 +12,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="2000"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="9gU-cQ-qbm">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" id="9gU-cQ-qbm">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="2000"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <subviews>
@@ -42,27 +42,27 @@
                                         </connections>
                                     </button>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="intro_tile2" id="qMq-8x-6Ct">
-                                        <rect key="frame" x="199" y="646" width="76" height="75"/>
+                                        <rect key="frame" x="201" y="745" width="76" height="75"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="intro_tile3" id="2Pt-32-PYr">
-                                        <rect key="frame" x="173" y="753" width="76" height="76"/>
+                                        <rect key="frame" x="201" y="821" width="76" height="76"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="intro_tile5" id="mom-e2-qh1">
-                                        <rect key="frame" x="137" y="852" width="76" height="75"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                    </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="intro_tile6" id="Kca-Wr-tAM">
-                                        <rect key="frame" x="40" y="907" width="76" height="75"/>
+                                        <rect key="frame" x="48" y="898" width="76" height="75"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="intro_tile4" id="poN-JU-Mbd">
-                                        <rect key="frame" x="72" y="718" width="76" height="76"/>
+                                        <rect key="frame" x="125" y="898" width="76" height="76"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="intro_tile1" id="lTa-qo-6uS">
-                                        <rect key="frame" x="52" y="459" width="153" height="152"/>
+                                        <rect key="frame" x="47" y="744" width="153" height="152"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="intro_tile6" id="Kca-Wr-tAM">
+                                        <rect key="frame" x="201" y="898" width="76" height="75"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
                                 </subviews>
@@ -76,8 +76,14 @@
                     <connections>
                         <outlet property="createBtn" destination="peZ-kk-LuK" id="kox-Mb-82Q"/>
                         <outlet property="introImg" destination="4hO-G2-Wll" id="UWp-vY-OkS"/>
-                        <outlet property="introScrollView" destination="9gU-cQ-qbm" id="Ho5-yk-UYb"/>
+                        <outlet property="introScrollView" destination="9gU-cQ-qbm" id="GmK-2p-Ctp"/>
                         <outlet property="signinBtn" destination="t1q-8w-Qgt" id="nnQ-gr-xK2"/>
+                        <outlet property="tileView01" destination="lTa-qo-6uS" id="9VE-vn-C0m"/>
+                        <outlet property="tileView02" destination="qMq-8x-6Ct" id="Z04-kL-EZ9"/>
+                        <outlet property="tileView03" destination="2Pt-32-PYr" id="K99-F0-9mf"/>
+                        <outlet property="tileView04" destination="mom-e2-qh1" id="gQ7-w4-dCg"/>
+                        <outlet property="tileView05" destination="poN-JU-Mbd" id="Q5J-Cv-OCn"/>
+                        <outlet property="tileView06" destination="Kca-Wr-tAM" id="Tis-dv-4q5"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
