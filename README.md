@@ -1,11 +1,12 @@
 Carousel
 ========
-Took about 15 hours to finish.
+Took about 16 hours to finish.
 
 App includes:
 
 Static photo tiles on the initial screen <br>
 Sign In <br>
+Optional: Photo tiles move with scrolling<br>
 Tapping on email/password reveals the keyboard and shifts the scrollview and Sign In button up. <br>
 Login button is disabled if either field is empty. <br>
 User sees an error alert when entering the wrong email/password combination. <br>
